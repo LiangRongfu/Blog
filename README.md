@@ -8,7 +8,7 @@
 
 
 > javaScript
-- [JS执行机制、宏任务和微任务](https://juejin.im/post/5d669cf16fb9a06ae43a06a2)
+- [JS执行机制、宏任务和微任务](https://github.com/LiangRongfu/Blog/issues/1)
 - [JS函数柯里化](https://zhuanlan.zhihu.com/p/79672381)
 - [javaScript高阶函数](https://zhuanlan.zhihu.com/p/78513598)
 - [call、apply、bind](https://zhuanlan.zhihu.com/p/75537555)
@@ -23,4 +23,7 @@
 - [在浏览器输入url发生的事情](https://zhuanlan.zhihu.com/p/74881414)
 
 > 拓展
-- [自定义脚手架与项目统一规范](https://juejin.im/post/5d7463c5f265da038f4832c6)
+- [自定义脚手架与项目统一规范](https://github.com/LiangRongfu/Blog/issues/2)
+
+>请求
+- [项目中的CORS跨域请求](https://github.com/LiangRongfu/Blog/issues/3)
