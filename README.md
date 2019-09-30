@@ -1,5 +1,5 @@
 # Rich的博客
-点水穿石 非一日之功！学习过程中善于总结、积累，这便是自己的财富。
+点水穿石，非一日之功！学习过程中善于总结、积累，这便是自己的财富。
 - [个人掘金主页](https://juejin.im/user/5bea357ce51d4502df2351f9/posts)
 - [个人知乎主页](https://www.zhihu.com/people/rofu-63/activities)
 
