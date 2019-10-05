@@ -4,7 +4,7 @@
 
 ### 什么是webpack？
 
-
+![](https://user-gold-cdn.xitu.io/2019/10/5/16d99e241ec295d1?w=2202&h=938&f=png&s=149862)
 webpack可以说是一个打包工具，有下面的一些特点
 - 可以进行代码转换可以把TypeScript、less转化成浏览器可执行的JavaScript、css等等；
 - 可以压缩js、css、html等等，进行文件优化；
