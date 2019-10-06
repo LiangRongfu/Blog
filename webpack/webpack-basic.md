@@ -15,7 +15,7 @@ webpack可以说是一个打包工具，有下面的一些特点
 ### webpack核心概念
 - Entry：入口，webpack执行构建的入口，可配置多入口；
 - Output：出口，webpack输出文件存放的地方，默认是`./dist`；
-- Module：模块，webpack会从配置的Entyr开始递归找出所有依赖的模块；
+- Module：模块，webpack会从配置的Entry开始递归找出所有依赖的模块；
 - Loader：模块转化器，把模块内容按需求转成新内容；
 - Chunk：代码块，用于代码合并与分割；
 - Plugin：插件，在webpack构建过程中的特定时机注入扩展逻辑来改变构建结果；
