@@ -1,9 +1,9 @@
-## 简单实现Vue 3数据响应
+# 简单实现Vue 3数据响应
 
-### 前言
+## 前言
 就在昨天Vue 3的源码公布了，在此之前相信对Vue有了解的开发者都知道Vue 3会改用`Proxy`来代替`Object.defineProperty`实现数据响应。至于为什么要用`Proxy`，大家从去年年底到现在这段时间多多少少都有了解过了吧。这两天都在看Vue 3相关的东西，此文旨在巩固用`Proxy`实现响应数据的过程，以便更好理解源码的实现。
 
-### Proxy实现数据响应
+## Proxy实现数据响应
 ```javascript
 const toProxy = new WeakMap();
 const toRaw = new WeakMap();
