@@ -1,7 +1,8 @@
 # Vue2.x数据响应-Object篇
 
+
 ## 前言
-  相信每位前端人都被问过`Vue`双向数据绑定的原理是什么吧？应该也很快能答出来是通过Object.defineProperty实现的，但这仅仅只回答了一半，因为`Object`和`Array`的实现方式是不一样的，这也是为什么标题是`Object`篇的原因。
+  相信每位前端人都被问过`Vue`双向数据绑定的原理是什么吧？应该也很快能答出来是通过Object.defineProperty让数据的每个属性变成`getter/setter`实现的，但这仅仅只回答了一半，因为`Object`和`Array`的实现方式是不一样的，这也是为什么标题是`Object`篇的原因。(建议先看总结，再一步步看实现过程)
 
 ## 基础知识
   首先了解一下下面的概念：
@@ -27,6 +28,7 @@
     console.log(result) // 新的数组
   ```
   为什么要说这个呢？因为Vue.js是声明式的，按API文档的要求来写Vue就知道要做什么。
+  (回头看好像偏题了，不管了就当巩固知识吧😂)
 
 ### Object.defineProperty
   在一个对象上定义一个新属性，或者修改一个对象的现有属性， 并返回这个对象, Vue.js是利用这个方法修改`data`对象的属性。
@@ -194,7 +196,7 @@
     }
   }
   ```
-  那么`new Observer(obj)`就能把`obj`下的属性都变成`getter/setter`了，如果`obj[key]`依然是一个对象呢？是不是要继续`new Observer(obj[key])`呀，那么就是`defineReactive`拿到`obj[key]`时，需要进行判断是不是对象，是的话就进行递归，那么加上这一步操作`defineReactive`就完整了
+  那么`new Observer(obj)`就能把`obj`下的属性都变成`getter/setter`了，如果`obj[key]`依然是一个对象呢？是不是要继续`new Observer(obj[key])`呀，那么就是`defineReactive`拿到`obj[key]`时，需要进行判断是不是对象，是的话就进行递归，那么加上这一步操作
   ```javascript
   function defineReactive(data, key, val) {
     if(typeof val === 'object') {
