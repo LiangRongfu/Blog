@@ -4,6 +4,8 @@
 - [个人知乎主页](https://www.zhihu.com/people/rofu-63/activities)
 
 > vue
+- [Vue2.x双向数据绑定原理-Array篇](https://juejin.im/post/5dc6b2fd6fb9a04a7a05da42)
+- [Vue2.x双向数据绑定原理-Object篇](https://juejin.im/post/5dc03ef8f265da4cf406fc6d)
 - [vue 单向数据流与双向数据绑定的理解](https://zhuanlan.zhihu.com/p/78037277)
 
 > react
