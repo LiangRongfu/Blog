@@ -37,5 +37,5 @@
 - [webpack](https://github.com/LiangRongfu/Blog/tree/master/webpack)
 
 >git
--[git多账号ssh设置](https://github.com/LiangRongfu/Blog/issues/5)
+- [git多账号ssh设置](https://github.com/LiangRongfu/Blog/issues/5)
 
